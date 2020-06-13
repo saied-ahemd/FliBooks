@@ -43,16 +43,22 @@
             <!-- start input  -->
             <div class="inpts">
                 <form>
-                    <input type="text" name="usermane" placeholder="UserName" class="form-control input1"> 
-                    <input type="password" name="password" placeholder="Password" class="form-control input2"> 
-                    <a href="#" class="forget-password">Forgot Password?</a>
+                    <div class="con2">
+                        <input type="email" name="email" placeholder="Eamil" class="form-control input2" required="required"> 
+                        <i class="far fa-envelope fa-lg icone"></i>
+                    </div>
+                    <div class="con3">
+                        <input type="password" name="password" placeholder="Password" class="form-control input3" required> 
+                        <i class="fas fa-lock fa-lg icone"></i>
+                        <a href="#" class="forget-password">Forgot Password?</a>
+                    </div> 
                 </form>
             </div>
             <!-- end input  -->
             <!-- start option -->
             <div class="option">
-                <div class="buttons d-flex justify-content-between text-capitalize align-items-center" >
-                    <input type="submit" value="Login" class="btn btn-primary b1">
+                <div class="buttons d-flex justify-content-between text-capitalize align-items-center">
+                    <input type="submit" value="Login" class="btn btn-default b1">
                     <input type="submit" value="Register" class="btn btn-outline-secondary b2">
                 </div>
                 <div class="web">

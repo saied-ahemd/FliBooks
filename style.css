@@ -31,8 +31,24 @@ body{
     width: 50vh;
     margin: 10px auto;
 }
-.input1{
+.input1,.input2{
     margin-bottom: 15px;
+    padding-left: 40px;
+}
+.input3{
+    padding-left: 40px;
+}
+.con1,.con2,.con3{
+    position: relative;
+
+}
+.con1 i ,.con2 i ,.con3 i{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    color: hotpink;
+    
+
 }
 .forget-password{
     color: rgb(233, 233, 233);
@@ -54,6 +70,7 @@ body{
     border: none;
     width: 90px;
     transition: ease-in-out 0.5s;
+    color: #fff;
 }
 .b1:hover{
     background-color: hotpink;
