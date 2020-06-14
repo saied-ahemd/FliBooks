@@ -77,6 +77,10 @@ body {
   margin: 10px auto;
   width: 23vh;
 }
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
 
 .b1 {
   background-color: #ff0080;
@@ -100,6 +104,17 @@ body {
   background-color: white;
   border-color: #fff;
   color: #ff0080;
+}
+@media (max-height: 700px) {
+  .buttons{
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-height: 700px) {
+  .buttons .b1{
+    margin-bottom: 10px;
+  }
 }
 
 .web {
