@@ -11,7 +11,7 @@ body {
   background-size: cover;
   height: 100vh;
   color: white;
-  overflow: hidden;
+  overflow: scroll;
 }
 .header .over {
   position: absolute;
@@ -20,6 +20,7 @@ body {
   left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.1);
+  overflow: scroll;
 }
 .login-text {
   font-size: 35px;
@@ -32,6 +33,12 @@ body {
 }
 .inpts input {
   font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 520px) {
+  .inpts {
+    width: 40vh;
+    margin: 10px auto;
+  }
 }
 .input1,
 .input2 {
@@ -70,33 +77,39 @@ body {
   margin: 10px auto;
   width: 23vh;
 }
+
 .b1 {
   background-color: #ff0080;
-  border: none;
-  width: 95px;
+  border-color: #ff0080;
+  width: 80px;
   transition: ease-in-out 0.5s;
   color: #fff;
 }
 .b1:hover {
   background-color: white;
+  border-color: white;
   color: #ff0080;
 }
 .b2 {
-  width: 95px;
-  height: 35px;
+  width: 80px;
   transition: ease-in-out 0.5s;
   border-color: #fff;
   color: #fff;
 }
 .b2:hover {
-  border: none;
   background-color: white;
+  border-color: #fff;
   color: #ff0080;
 }
 
 .web {
   width: 23vh;
   margin: 20px auto;
+}
+@media (max-height: 780px) {
+  .web span {
+    display: none;
+  }
 }
 .web1 {
   background-color: #7a73e8;
