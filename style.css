@@ -285,7 +285,7 @@ body {
   height: 110px;
   box-shadow: 0px 0px 10px 2px #CBDEFF;
   margin: 5px auto;
-  transition: ease-in-out 0.7s;
+  transition: ease-in-out 0.8s;
   
   
 }
@@ -296,11 +296,12 @@ body {
   height: 98px;
   margin: 6px 7px;
   cursor: pointer;
-  transition: ease-in-out 0.6s;
+  transition: ease-in-out 0.7s;
 }
 .content{
   display: none;
-  animation-delay: 2s;
+  transition: 1s ease-in-out;
+
   
 }
 .content h4{
@@ -330,6 +331,28 @@ body {
   padding: 15px;
   box-shadow: 0px 0px 10px 2px #CBDEFF;
   border-radius: 15px;
+}
+.modal-content ::-webkit-input-placeholder{
+  color: #8ab7ff7e;
+  
+}
+.c1{
+  color: #8AB6FF;
+  
+}
+.send{
+  background-color: #F7FAFF;
+  border-radius: 15px;
+  color: #8AB6FF;
+  padding: 7px;
+  width: 80px;
+  border-color: #8AB6FF;
+   border-style: solid;
+   transition: 0.5s ease;
+}
+.send:hover{
+  background-color: #8AB6FF;
+  color: #FFF;
 }
 
 /* end about us */
