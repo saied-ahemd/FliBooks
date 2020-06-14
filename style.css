@@ -77,7 +77,7 @@ body {
   margin: 10px auto;
   width: 23vh;
 }
-.buttons{
+.buttons {
   display: flex;
   justify-content: space-between;
 }
@@ -106,14 +106,19 @@ body {
   color: #ff0080;
 }
 @media (max-height: 700px) {
-  .buttons{
+  .buttons {
+    width: 23vh;
     display: block;
     text-align: center;
   }
 }
 @media (max-height: 700px) {
-  .buttons .b1{
+  .buttons .b1 {
+    width: 23vh;
     margin-bottom: 10px;
+  }
+  .buttons .b2 {
+    width: 23vh;
   }
 }
 
