@@ -299,8 +299,9 @@ body {
   transition: ease-in-out 0.7s;
 }
 .content{
-  display: none;
-  transition: 1s ease-in-out;
+  transition: 1s ease-in-out;  
+  
+  opacity: 0;
 
   
 }
@@ -321,8 +322,13 @@ body {
   height: 300px;
   border-radius: 15px;
 }
+.cont{
+  position: relative;
+}
 .about .cont:hover .content{
-  display: block;
+
+ opacity: 1;
+
 }
 .con a{
   background-color: #fff;
@@ -347,8 +353,8 @@ body {
   padding: 7px;
   width: 80px;
   border-color: #8AB6FF;
-   border-style: solid;
-   transition: 0.5s ease;
+  border-style: solid;
+  transition: 0.5s ease;
 }
 .send:hover{
   background-color: #8AB6FF;
