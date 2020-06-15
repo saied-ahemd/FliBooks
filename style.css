@@ -277,7 +277,7 @@ body {
 .row2 {
   margin-bottom: 10vh;
 }
-@media(max-width:768px){
+@media (max-width: 768px) {
   .row1 {
     margin-bottom: 0vh;
   }
@@ -305,7 +305,7 @@ body {
   height: 0px;
   visibility: hidden;
   opacity: 0;
-  transition: ease-in-out opacity 1s;
+  transition: ease-in-out opacity 1s 300ms;
 }
 .content h4 {
   color: #8ab6ff;
@@ -313,7 +313,7 @@ body {
 }
 .des {
   font-size: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .about .cont:hover img {
@@ -329,10 +329,10 @@ body {
   opacity: 1;
   height: 100%;
 }
-.icons .footer-icon{
+.icons .footer-icon {
   color: #8ab6ff;
 }
-.icons .footer-icon:hover{
+.icons .footer-icon:hover {
   color: #8ab7ff80;
 }
 .con a {
@@ -343,14 +343,25 @@ body {
   box-shadow: 0px 0px 10px 2px #cbdeff;
   border-radius: 15px;
 }
+
 .con a:hover {
   background-color: none;
   border: 1px solid #8ab6ff;
   text-decoration: none;
 }
 .modal-content ::-webkit-input-placeholder {
-  color: #8ab7ff7e;
+  color: #bdd5ff;
 }
+.modal-body {
+  border: none;
+}
+.modal-content .modal-body .form-group .email {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #bdd5ff;
+  opacity: 1;
+}
+
 .c1 {
   color: #8ab6ff;
 }
