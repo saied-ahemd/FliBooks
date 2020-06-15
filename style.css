@@ -277,6 +277,11 @@ body {
 .row2 {
   margin-bottom: 10vh;
 }
+@media(max-width:768px){
+  .row1 {
+    margin-bottom: 0vh;
+  }
+}
 
 .about .image1 {
   background-color: #fff;
@@ -297,8 +302,10 @@ body {
   transition: ease-in-out 700ms;
 }
 .content {
-  display: none;
-  transition: ease-in-out 1s;
+  height: 0px;
+  visibility: hidden;
+  opacity: 0;
+  transition: ease-in-out opacity 1s;
 }
 .content h4 {
   color: #8ab6ff;
@@ -317,7 +324,9 @@ body {
   border-radius: 15px;
 }
 .about .cont:hover .content {
-  display: block;
+  visibility: visible;
+  opacity: 1;
+  height: 100%;
 }
 .con a {
   background-color: #fff;
