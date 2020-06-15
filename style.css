@@ -309,10 +309,11 @@ body {
 }
 .content h4 {
   color: #8ab6ff;
+  font-size: 16px;
 }
 .des {
   font-size: 15px;
-  font-family: "RoundLight";
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .about .cont:hover img {
@@ -327,6 +328,12 @@ body {
   visibility: visible;
   opacity: 1;
   height: 100%;
+}
+.icons .footer-icon{
+  color: #8ab6ff;
+}
+.icons .footer-icon:hover{
+  color: #8ab7ff80;
 }
 .con a {
   background-color: #fff;
