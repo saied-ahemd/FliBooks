@@ -5,43 +5,6 @@ body {
   /* font-family: "Lobster"; */
 }
 
-<<<<<<< HEAD
-@media (max-width: 2000px){
-.navbar-expand-lg .navbar-toggler {
-    display: block;
-}
-}
-.store-img{
-    transition: all 1s ease-in-out;
-}
-.card-body{
-    position: relative;
-    transition: 1s ease;
-    height: 70px;
-}
-.img-container{
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-  }
-.img-container:hover .store-img{
-    transition: 1s ease-in-out;
-    transform: scale(1.5);
-}
-.content2{
-    position: absolute;
-    right: 20px;
-    bottom: -50px;
-    transition: 1s ease-in-out;
-}
-.single-item:hover .content2{
-    bottom: 20px;
-}
-.single-item:hover .card-body{
-
-    height: 120px;
-    transition: 1s ease;
-=======
 .store-img {
   transition: all 1s ease-in-out;
 }
@@ -74,9 +37,8 @@ body {
   top: 40px;
 }
 .single-item:hover .card-body {
-  height: 80px;
+  height: 115px;
   transition: 1s ease;
->>>>>>> 41354217fc3ab07901277e988fbef0df6186695a
 }
 .con a {
   background-color: #fff;
@@ -145,4 +107,23 @@ body {
 }
 .search-input ::placeholder {
   color: #8ab6ff;
+}
+.location{
+    background-color: #FFF;
+    border-radius: 15px;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+}
+.tag{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color: gold;
+    transition: 0.8s ease-in-out;
+}
+.single-item:hover .tag{
+    top: 82px;
+    left: 30px;
+
 }
