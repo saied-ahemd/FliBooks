@@ -2,7 +2,7 @@ body{
     background-color: rgb(233, 233, 233);
 }
 
-@media (min-width: 2000px){
+@media (max-width: 2000px){
 .navbar-expand-lg .navbar-toggler {
     display: block;
 }
