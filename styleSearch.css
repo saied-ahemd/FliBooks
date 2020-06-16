@@ -4,6 +4,7 @@ body {
   font-family: "Baloo 2";
   /* font-family: "Lobster"; */
 }
+/* start search page */
 
 .store-img {
   transition: all 1s ease-in-out;
@@ -127,3 +128,10 @@ body {
     left: 30px;
 
 }
+/* End search page */
+/* start reommende page */
+.recom{
+    margin-top: 15vh;
+}
+
+/* end reommende page */
