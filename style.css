@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Baloo 2", sans-serif;
 }
 
 .header {
@@ -30,9 +30,6 @@ body {
 .inpts {
   width: 50vh;
   margin: 10px auto;
-}
-.inpts input {
-  font-family: Arial, Helvetica, sans-serif;
 }
 @media (max-width: 520px) {
   .inpts {
@@ -313,7 +310,6 @@ body {
 }
 .des {
   font-size: 15px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .about .cont:hover img {
@@ -356,7 +352,6 @@ body {
   border: none;
 }
 .modal-content .modal-body .form-group .email {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #bdd5ff;
   opacity: 1;
