@@ -109,29 +109,34 @@ body {
 .search-input ::placeholder {
   color: #8ab6ff;
 }
-.location{
-    background-color: #FFF;
-    border-radius: 15px;
-    top: 20px;
-    left: 20px;
-    width: 50px;
+.location {
+  background-color: #fff;
+  border-radius: 15px;
+  top: 20px;
+  left: 20px;
+  width: 50px;
 }
-.tag{
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    color: gold;
-    transition: 0.8s ease-in-out;
+.tag {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  color: gold;
+  transition: 0.8s ease-in-out;
 }
-.single-item:hover .tag{
-    top: 82px;
-    left: 30px;
-
+.single-item:hover .tag {
+  top: 82px;
+  left: 30px;
+}
+.fa-heart-o {
+  color: #2977ff;
+}
+.fa-heart {
+  color: red;
 }
 /* End search page */
 /* start reommende page */
-.recom{
-    margin-top: 15vh;
+.recom {
+  margin-top: 15vh;
 }
 
 /* end reommende page */
