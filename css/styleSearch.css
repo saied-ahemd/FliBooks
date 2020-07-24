@@ -9,6 +9,9 @@ body {
 .store-img {
   transition: all 1s ease-in-out;
 }
+.home{
+  color: #8ab6ff;
+}
 .card-body {
   position: relative;
   transition: 1s ease;

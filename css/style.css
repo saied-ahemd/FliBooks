@@ -12,6 +12,9 @@ body {
   height: 100vh;
   color: white;
 }
+.home{
+  color: #8ab6ff;
+}
 .header .over {
   position: absolute;
   height: 100%;

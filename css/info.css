@@ -52,7 +52,7 @@ body{
 
 }
 .btn{
-    background-color:rgba(255, 131, 15, 0.836);
+    
     color: white;
     letter-spacing: -1px;
     border-radius: 5px;
@@ -89,4 +89,26 @@ body{
     color: #8ab6ff;
     letter-spacing: 1.2px;
     font-size: 30px;
+}
+.notes{
+    margin: 5px auto;
+}
+.notes ::-webkit-input-placeholder{
+    color: #8ab6ff;
+}
+.room{
+    margin-right: 20px;
+}
+.room,.neight{
+    border-radius: 15px;
+    width: 120px;
+    margin: 0 10px 0 0 ;
+}
+.total{
+    margin: 4px 10px 0 0;
+    font-size: 20px;
+    color: #8ab6ff;
+}
+.home{
+    color: #8ab6ff;
 }
