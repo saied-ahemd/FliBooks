@@ -1,203 +1,197 @@
-
-body{
-	margin:0;
-	padding: 0;
-	background: #F7FAFF;
+body {
+  margin: 0;
+  padding: 0;
+  background: #f7faff;
+  font-family: "Baloo 2";
 }
-*{
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-#page{
-
-	overflow: hidden;
+#page {
+  overflow: hidden;
 }
-.login{
-	position: relative;
-	overflow: hidden;
-	margin: 0;
-	width: 50%;
-	font-family: 'MuseoModerno', cursive;
-	float: left;
-	display: flex;
-	background: #d1d8e0;
-	overflow: hidden;
-	box-shadow: 0px 0px 20px rgba(255,255,255,.6);
-    border-radius: 0px 20px 20px 0px ;
-
+.login {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 50%;
+  float: left;
+  display: flex;
+  background: #d1d8e0;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+  border-radius: 0px 20px 20px 0px;
 }
-.login .cover{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	transition: .3s;
+.login .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
 }
-.login .name{
-    padding: 0 50px;
-    position: absolute;
-    display: block;
-    width: calc(100% - 100px);
-  	left: 50%;
-  	top: 50%;
-  	transform: translate(-50%, -50%);
+.login .name {
+  padding: 0 50px;
+  position: absolute;
+  display: block;
+  width: calc(100% - 100px);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
-.login .name .text{
-	color: #fff;
-	width: 75%;
-	display: block;
-	font-size: 36px;
+.login .name .text {
+  color: #fff;
+  width: 75%;
+  display: block;
+  font-size: 36px;
 }
-.buttons{
-	padding: 10px;
-	margin-top: 7px;
+.buttons {
+  padding: 10px;
+  margin-top: 7px;
 }
 .buttons .b1 {
-	background-color: #ff0080;
-	border-color: #ff0080;
-	width: 80px;
-	transition: ease-in-out 0.5s;
-	color: #fff;
-	
-	margin-right: 10px;
-  }
-  .b1:hover {
-	background-color: white;
-	border-color: white;
-	color: #ff0080;
-  }
-  .b2 {
-	width: 80px;
-	transition: ease-in-out 0.5s;
-	border-color: #fff;
-	color: #fff;
-	
-  }
-  .b2:hover {
-	background-color: white;
-	border-color: #fff;
-	color: #ff0080;
-  }
+  background-color: #ff0080;
+  border-color: #ff0080;
+  width: 100px;
+  transition: ease-in-out 0.5s;
+  color: #fff;
 
-#page{
-	width: calc(50% - 50px);
-	padding: 25px;
-	float: right;
+  margin-right: 10px;
 }
-.header{
-	margin: 50px 0 ;
-	color: #9BC0FF;
-	display: flow-root;
+.b1:hover {
+  background-color: white;
+  border-color: white;
+  color: #ff0080;
+}
+.b2 {
+  width: 100px;
+  transition: ease-in-out 0.5s;
+  border-color: #fff;
+  color: #fff;
+}
+.b2:hover {
+  background-color: white;
+  border-color: #fff;
+  color: #ff0080;
+}
 
+#page {
+  width: calc(50% - 50px);
+  padding: 25px;
+  float: right;
 }
-ul{
-	list-style-type: none;
-	margin: 0;
-
+.header {
+  margin: 50px 0;
+  color: #9bc0ff;
+  display: flow-root;
 }
-a:hover{
-	text-decoration: none;
+ul {
+  list-style-type: none;
+  margin: 0;
 }
-ul li{
-	float: left;
-	margin: 0;
+a:hover {
+  text-decoration: none;
 }
-.logo{
-	font-family: 'MuseoModerno', cursive;
-	display: block;
-	float: left;
+ul li {
+  float: left;
+  margin: 0;
 }
-.list{
-	float: right;
-	font-size: 14px
+.logo {
+  display: block;
+  float: left;
+  font-size: 25px;
+  padding-bottom: 10px;
 }
-.list a{
-	color: #9BC0FF;
-	font-family: 'MuseoModerno', cursive;
-	margin: 2px 7px;
-	height: 100%;
+.list {
+  float: right;
+  font-size: 14px;
+}
+.list a {
+  color: #9bc0ff;
+  margin: 2px 7px;
+  height: 100%;
 }
 /**********************/
-.search-box{
-	width: 100%;
-	background:#fff;
-	height: 40px ;
-	margin: 50px 0;
-	border-radius: 4px;
-	position: relative;
-	overflow: hidden;
-	border: none;
-	outline: none;
+.search-box {
+  width: 100%;
+  background: #fff;
+  height: 40px;
+  margin: 50px 0;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  outline: none;
 }
-.search-btn{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	right: 0;
-	background: none;
-	height: 40px;
-	width: 40px;
-	margin: 0;
-	border: none;
-	outline: none;
-	color: #9BC0FF;
-
+.search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  background: none;
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  border: none;
+  outline: none;
+  color: #9bc0ff;
 }
-.search-txt{
-	border: none;
-	outline: none;
-	float: left;
-	font-size: 16px;
-	background: none;
-	transition: .3s;
-	line-height: 40px;
-	padding: 0 45px 0 15px;
-	border-radius: 3px 0 0 3px;
-	width: calc(100% - 60px);
+.search-txt {
+  border: none;
+  outline: none;
+  float: left;
+  font-size: 16px;
+  background: none;
+  transition: 0.3s;
+  line-height: 40px;
+  padding: 0 45px 0 15px;
+  border-radius: 3px 0 0 3px;
+  width: calc(100% - 60px);
 }
-.search-txt:focus{
-	background: #fff;color: #000
+.search-txt:focus {
+  background: #fff;
+  color: #000;
 }
-.search-txt:focus + .search-btn{
-	color: #000
+.search-txt:focus + .search-btn {
+  color: #000;
 }
 .search-txt::placeholder {
-  color: #9BC0FF;
-	font-family: 'MuseoModerno', cursive;
+  color: #9bc0ff;
 }
-.search-txt:focus::placeholder{
-	color: #000
+.search-txt:focus::placeholder {
+  color: #000;
 }
 /*****************/
-.discover{
-	display: flow-root;
-    margin: 30px 0;
-	font-family: 'MuseoModerno', cursive;
+.discover {
+  display: flow-root;
+  margin: 30px 0;
 }
-.head{
-	width: 100%;
-	display: flow-root;
-	margin: 25px 0;
-	font-family: 'MuseoModerno', cursive;
+.head {
+  width: 100%;
+  display: flow-root;
+  margin: 25px 0;
 }
-.head p{
-	display: block;
-	float: left;
+.head p {
+  display: block;
+  float: left;
+  font-size: 20px;
+  color: black;
 }
 
-.head a{
-	display: block;
-	float: right;
+.head a {
+  display: block;
+  float: right;
+  font-size: 16px;
 }
-.slider{
-	overflow-x: scroll;
+.slider {
+  overflow-x: scroll;
 }
 /* width */
 .slider::-webkit-scrollbar {
-  height: 8px;
+  height: 4px;
 }
 
 /* Track */
@@ -207,74 +201,69 @@ ul li{
 
 /* Handle */
 .slider::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #ff0080;
 }
 
 /* Handle on hover */
 .slider::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: red;
 }
-.scroll{
-	width: max-content;
+.scroll {
+  width: max-content;
 }
-.slider .photo{
-	height: 150px;
-	position: relative;
-	width: auto;
-	border-radius: 6px;
-	overflow: hidden;
-	display: inline-block;
-	float: left;
-	margin: 10px;
-	position: relative;
+.slider .photo {
+  height: 250px;
+  position: relative;
+  width: 200px;
+  border-radius: 6px;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  position: relative;
 }
-.slider .photo img{
-	height: all;
-	height: 100%;
+.slider .photo img {
+  height: all;
+  height: 100%;
 }
-.slider .photo p{
-	color: #fff;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    font-size: 12px;
-    margin: 15px 10px;
-    background:   rgba(0, 0, 0, 0.3);
-    padding: 0 5px;
+.slider .photo p {
+  color: #fff;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  margin: 15px 10px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0 5px;
 }
-.rec{
-	
-	display: flow-root;
-    margin: 30px 0;
+.rec {
+  display: flow-root;
+  margin: 30px 0;
 }
-.rec .button button{
-	margin: 0 10px;
-	background: #fff;
-	box-shadow: 0px 0px 4px 0px #9BC0FF;
-	transition: .3s;
+.rec .button button {
+  margin: 0 10px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px #9bc0ff;
+  transition: 0.3s;
 }
 .rec .button button p {
-
-	color: #9BC0FF
-
+  color: #9bc0ff;
 }
-.rec .button button:hover{
-	box-shadow:0px 0px 4px 0px #FF0080;
+.rec .button button:hover {
+  box-shadow: 0px 0px 4px 0px #ff0080;
 }
 .rec .button button:hover p {
-	color: #FF0080;
-
+  color: #ff0080;
 }
-.recommended a{
-	background-color: #fff;
-	box-shadow: 0px 1px 3px  #8ebfe7;
-	color: #8ebfe7;
-	padding: 7px;
-	border-radius: 10px;
-	margin-right: 5px;
-	transition: 0.4s ease;
-
+.recommended a {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px #c8dcff;
+  color: #accbff;
+  padding: 7px 12px;
+  border-radius: 10px;
+  margin-right: 5px;
+  transition: 0.4s ease;
 }
-.recommended a:hover{
-	color: #000;
+.recommended a:hover {
+  color: #000;
 }
