@@ -1,0 +1,20 @@
+.login{
+	
+}
+#page{
+	
+}
+.login .name .text{
+	font-size: 24px;
+}
+.list{
+	float: left;
+	margin: 10px 0;
+}
+.list li:first-child a{
+	margin-left: 0;
+}
+.logo{
+	width: 100%;
+	color: #000;
+}

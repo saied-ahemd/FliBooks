@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+body{
+	margin:0;
+	padding: 0;
+	background: #F7FAFF;
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+#page{
+
+	overflow: hidden;
+}
+.login{
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	width: 50%;
+	font-family: 'MuseoModerno', cursive;
+	float: left;
+	display: flex;
+	background: #d1d8e0;
+	overflow: hidden;
+	box-shadow: 0px 0px 20px rgba(255,255,255,.6);
+    border-radius: 0px 20px 20px 0px ;
+
+}
+.login .cover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: .3s;
+}
+.login:hover .cover{
+	background: rgba(27,20,100,.3);
+}
+.login .name{
+    padding: 0 50px;
+    position: absolute;
+    display: block;
+    width: calc(100% - 100px);
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+}
+.login .name .text{
+	color: #fff;
+	width: 75%;
+	display: block;
+	font-size: 36px;
+}
+
+.button{
+	padding:0;
+}
+.button button{
+	margin: 15px 5px;
+	text-align: left;
+	font-size: 16px;
+	float: left;
+	border:none;
+
+	outline: none;
+	padding: 0px 5px;
+	border-radius: 2px;
+
+	background: #FF0080;
+}
+.button button p{
+	display: inline-block;
+	padding: 0px 5px;
+	color: #fff;
+
+	font-family: 'MuseoModerno', cursive;
+}
+.button button:hover{
+	color: #fff;
+	background: #333333;
+	transition: .4s;
+}
+.button button:hover > p{
+	display: inline-block;
+}
+#page{
+	width: calc(50% - 50px);
+	padding: 25px;
+	float: right;
+}
+.header{
+	margin: 50px 0 ;
+	color: #9BC0FF;
+	display: flow-root;
+
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+
+}
+a:hover{
+	text-decoration: none;
+}
+ul li{
+	float: left;
+	margin: 0;
+}
+.logo{
+	font-family: 'MuseoModerno', cursive;
+	display: block;
+	float: left;
+}
+.list{
+	float: right;
+	font-size: 14px
+}
+.list a{
+	color: #9BC0FF;
+	font-family: 'MuseoModerno', cursive;
+	margin: 2px 7px;
+	height: 100%;
+}
+/**********************/
+.search-box{
+	width: 100%;
+	background:#fff;
+	height: 40px ;
+	margin: 50px 0;
+	border-radius: 4px;
+	position: relative;
+	overflow: hidden;
+	border: none;
+	outline: none;
+}
+.search-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: 0;
+	background: none;
+	height: 40px;
+	width: 40px;
+	margin: 0;
+	border: none;
+	outline: none;
+	color: #9BC0FF;
+
+}
+.search-txt{
+	border: none;
+	outline: none;
+	float: left;
+	font-size: 16px;
+	background: none;
+	transition: .3s;
+	line-height: 40px;
+	padding: 0 45px 0 15px;
+	border-radius: 3px 0 0 3px;
+	width: calc(100% - 60px);
+}
+.search-txt:focus{
+	background: #fff;color: #000
+}
+.search-txt:focus + .search-btn{
+	color: #000
+}
+.search-txt::placeholder {
+  color: #9BC0FF;
+	font-family: 'MuseoModerno', cursive;
+}
+.search-txt:focus::placeholder{
+	color: #000
+}
+/*****************/
+.discover{
+	display: flow-root;
+    margin: 30px 0;
+	font-family: 'MuseoModerno', cursive;
+}
+.head{
+	width: 100%;
+	display: flow-root;
+	margin: 25px 0;
+	font-family: 'MuseoModerno', cursive;
+}
+.head p{
+	display: block;
+	float: left;
+}
+
+.head a{
+	display: block;
+	float: right;
+}
+.slider{
+	overflow-x: scroll;
+}
+/* width */
+.slider::-webkit-scrollbar {
+  height: 8px;
+}
+
+/* Track */
+.slider::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.slider::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.slider::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.scroll{
+	width: max-content;
+}
+.slider .photo{
+	height: 150px;
+	position: relative;
+	width: auto;
+	border-radius: 6px;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+.slider .photo img{
+	height: all;
+	height: 100%;
+}
+.slider .photo p{
+	color: #fff;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    margin: 15px 10px;
+    background:   rgba(0, 0, 0, 0.3);
+    padding: 0 5px;
+}
+.rec{
+	
+	display: flow-root;
+    margin: 30px 0;
+}
+.rec .button button{
+	margin: 0 10px;
+	background: #fff;
+	box-shadow: 0px 0px 4px 0px #9BC0FF;
+	transition: .3s;
+}
+.rec .button button p {
+
+	color: #9BC0FF
+
+}
+.rec .button button:hover{
+	box-shadow:0px 0px 4px 0px #FF0080;
+}
+.rec .button button:hover p {
+	color: #FF0080;
+
+}
