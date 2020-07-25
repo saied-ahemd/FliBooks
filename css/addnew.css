@@ -1,40 +1,63 @@
 body {
-    font-family: "Baloo 2", sans-serif;
-  }
-  .home{
-    color: #8ab6ff;
-  }
-  .title{
-      color: #8ab6ff;
-  }
-  .inputs{
-      margin-top: 100px;
-  }
-  .form-control 
-{
-    
-    padding: 25px !important;
-    margin: 30px 0;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 10px;
-    color: #2196F3;
-    box-shadow: 0px 1px 3px  #8ebfe7;
+  font-family: "Baloo 2", sans-serif;
 }
-.form-control::placeholder
-{
-    color: #BBDEFB;
+.home {
+  color: #8ab6ff;
 }
- 
-.form-control:hover::placeholder
-{
-    color: #64B5F6;
- 
+.title {
+  color: #8ab6ff;
 }
-.img-container img{
-    margin-left: 90px;
-    margin-top: 100px;
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
+.inputs {
+  margin-top: 180px;
+}
+.form-control {
+  padding: 25px !important;
+  margin: 30px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  color: #2196f3;
+  box-shadow: 0px 0px 10px 0px #c7e6ff;
+}
+.form-control::placeholder {
+  color: #bbdefb;
+}
+
+.form-control:hover::placeholder {
+  color: #64b5f6;
+}
+.img-container img {
+  margin-left: 90px;
+  margin-top: 100px;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #c7e6ff;
+}
+.small-img-container img {
+  margin-left: 28px;
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #c7e6ff;
+  text-align: center;
+}
+
+.margin {
+  margin-left: 62px;
+  float: left;
+  color: #fff;
+}
+.more-images .small-img-container {
+  float: left;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .inputs {
+    margin-top: 0px;
+  }
+  .img-container img {
+    margin-top: 0px;
+  }
 }
