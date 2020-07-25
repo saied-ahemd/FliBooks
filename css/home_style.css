@@ -221,8 +221,8 @@ ul li {
   margin: 10px;
 }
 .slider .photo img {
-  height: all;
   height: 100%;
+  min-width: 100%;
 }
 .slider .photo p {
   color: #fff;
