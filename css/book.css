@@ -1,79 +1,120 @@
-body{
-    background-color: #f5f5f5;
+body {
+  background-color: #f7faff;
 }
-.home{
-    color: #8ab6ff;
+.home {
+  color: #8ab6ff;
 }
-.book{
-    padding: 80px 0px;
-    background-color: #f5f5f5;
-    margin-top: 100px;
-} 
-  .example.example1 * {
-    font-family: Roboto, Open Sans, Segoe UI, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 20px;
-  }
-  
-  .example.example1 fieldset {
-    margin: 0 15px 20px;
-    padding: 0;
-    border-style: none;
-    background-color: #7795f8;
-    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
-      inset 0 1px 0 #829fff;
-    border-radius: 15px;
-  }
-  
-  .example.example1 .row {
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
-  }
-  .example.example1 label {
-    width: 15%;
-    min-width: 70px;
-    padding: 11px 0;
-    color: #c4f0ff;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  
-  .example.example1 input, .example.example1 button {
-    outline: none;
-    border-style: none;
-  }
-  .example.example1 input {
-    width: 100%;
-    padding: 11px 15px 11px 0;
-    color: #fff;
-    background-color: transparent;
-  }
-  
-  .example.example1 input::-webkit-input-placeholder {
-    color: #87bbfd;
-  }
-  
-  .example.example1 input::-moz-placeholder {
-    color: #87bbfd;
-  }
-  .example.example1 button {
-    display: block;
-    width: calc(100% - 30px);
-    height: 40px;
-    margin: 40px 15px;
-    background-color: #f6a4eb;
-    box-shadow:  0 1px 0 #ffb9f6;
-    border-radius: 4px;
-    color: #fff;
-    font-weight: 600;
-    cursor: pointer;
-    padding: 3.5px;
-    margin-bottom: 20px;
-  }
-  
- 
+.card-body {
+  position: relative;
+  transition: 1s ease;
+  padding: 10px 15px 0px 10px;
+  height: 230px;
+  font-weight: 600;
+  width: 80%;
+  padding: 7px 20px;
+}
+.img-container {
+  margin: 10px 10px 0px 10px;
+  border-radius: 30px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  height: 200px;
+}
 
- 
+.single-item {
+  box-shadow: 0px 0px 10px 0px #cbdeff;
+  border: none;
+  border-radius: 35px;
+}
+.container {
+  margin-top: 100px;
+}
+.location {
+  background-color: #fff;
+  border-radius: 15px;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+.card-body p {
+  color: #2977ff;
+  margin-left: 30px;
+}
+.book-now {
+  background-color: #5494ff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 0px 10px 0px #95bcff;
+}
+.book {
+  background-color: ##f7faff;
+}
+.example.example1 * {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.example.example1 fieldset {
+  margin: 0 15px 20px;
+  padding: 0;
+  border-style: none;
+  background-color: #f7faff;
+  box-shadow: 0 0px 10px 0px #cbdeff;
+  border-radius: 15px;
+}
+
+.example.example1 .row {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.example.example1 label {
+  width: 15%;
+  min-width: 70px;
+  padding: 11px 0;
+  color: #5494ff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.example.example1 input,
+.example.example1 button {
+  outline: none;
+  border-style: none;
+}
+.example.example1 input {
+  margin-right: 30px;
+  width: 100%;
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+  box-shadow: 0 0px 10px 0px #cbdeff;
+  border-radius: 10px;
+}
+
+.example.example1 input::-webkit-input-placeholder {
+  color: #8ab6ff;
+}
+
+.example.example1 input::-moz-placeholder {
+  color: #8ab6ff;
+}
+.example.example1 button {
+  display: block;
+  width: calc(100% - 30px);
+  height: 40px;
+  margin: 40px 15px;
+  background-color: #f6a4eb;
+  box-shadow: 0 1px 0 #ffb9f6;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 3.5px;
+  margin-bottom: 20px;
+}

@@ -9,7 +9,7 @@ body {
 .store-img {
   transition: all 1s ease-in-out;
 }
-.home{
+.home {
   color: #8ab6ff;
 }
 .card-body {
@@ -92,6 +92,7 @@ body {
 .search {
   width: 100%;
   margin-bottom: 10px;
+  margin-top: 60px;
 }
 
 .icon {
