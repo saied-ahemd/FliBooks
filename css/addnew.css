@@ -1,0 +1,40 @@
+body {
+    font-family: "Baloo 2", sans-serif;
+  }
+  .home{
+    color: #8ab6ff;
+  }
+  .title{
+      color: #8ab6ff;
+  }
+  .inputs{
+      margin-top: 100px;
+  }
+  .form-control 
+{
+    
+    padding: 25px !important;
+    margin: 30px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    color: #2196F3;
+    box-shadow: 0px 1px 3px  #8ebfe7;
+}
+.form-control::placeholder
+{
+    color: #BBDEFB;
+}
+ 
+.form-control:hover::placeholder
+{
+    color: #64B5F6;
+ 
+}
+.img-container img{
+    margin-left: 90px;
+    margin-top: 100px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
