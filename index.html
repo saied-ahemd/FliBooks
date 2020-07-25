@@ -4,7 +4,12 @@
 	<title>Title</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/info.css">
+	<link rel="stylesheet" href="fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styleSearch.css">
+    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.css">
 	<link rel="stylesheet" type="text/css" href="css/home_style.css">
 	<link rel="stylesheet" media='(max-width: 900px)' href="css/_900px.css">
 	<link rel="stylesheet" media='(min-width: 900px)' href="css/__900px.css">
@@ -17,9 +22,9 @@
 			<div class="cover"></div>
 			<div class="name">
 				<span class="text">Get ready for your lifetime journey</span>
-				<div class="button">
-					<button><p>Login</p></button>
-					<button><p>Register</p></button>
+				<div class="buttons">
+					<a href="login.html" value="Login" class="btn b1">Login   </a>
+					<a href="signup.html" value="Register" class="btn  b2">Register</a>
 				</div>
 			</div>
 		</div>
@@ -27,57 +32,65 @@
 			<div class="header">
 				<div class="logo">FLIBOOKS</div>
 				<ul class="list">
-					<li><a href="#">Discover</a></li>
-					<li><a href="#">Deals</a></li>
-					<li><a href="#">Top Places</a></li>
-					<li><a href="#">About Us</a></li>
+					<li><a href="recommended.html">Recommended</a></li>
+					<li><a href="deals.html">Deals</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="profile.html">Profile</a></li>
 				</ul>
-			</div>
-			<div class="search-box">
-				<input class="search-txt" type="text" placeholder="Search...">
-				<a class="search-btn" href="#"><i class="fa fa-search"></i></a>
 			</div>
 			<div class="discover">
 				<div class="head">
-					<p>Discover</p>
-					<a href="#">see all</a>
+					<p>Offers</p>
+					<a href="deals.html" style="color: #8AB6FF;">see all</a>
 				</div>
 				<div class="slider">
 					<div class="scroll">
 						<div class="photo">
-							<img src="images/01.jpg">
+							<img src="images/1_d.jpg">
 							<p>Caption Here</p>
 						</div>
 						<div class="photo">
-							<img src="images/02.jpg">
+							<img src="images/2nUGsD2QnvC9BzM8geN48M-1200-80.jpg">
 							<p>Caption Here</p>
 						</div>
 						<div class="photo">
-							<img src="images/03.jpg">
+							<img src="images/5.jpeg">
 							<p>Caption Here</p>
 						</div>
 						<div class="photo">
-							<img src="images/04.jpg">
+							<img src="images/donations_footer-v1.png">
 							<p>Caption Here</p>
 						</div>
 						<div class="photo">
-							<img src="images/06.jpg">
+							<img src="images/7.png">
 							<p>Caption Here</p>
 						</div>
 						<div class="photo">
-							<img src="images/07.jpg">
+							<img src="images/9d2c1477abd702fa9e521fa0e5f85ced.png">
 							<p>Caption Here</p>
 						</div>
 						<div class="photo">
-							<img src="images/08.jpg">
+							<img src="images/donations_footer-v1.png">
 							<p>Caption Here</p>
 						</div>
 						<div class="photo">
-							<img src="images/09.jpg">
+							<img src="images/it_s_time_to_do_the_design.800.png">
 							<p>Caption Here</p>
 						</div>
 						<div class="photo">
-							<img src="images/10.jpg">
+							<img src="images/urbanscape-illustration-4908680_1920.png">
+							<p>Caption Here</p>
+						</div>
+						<div class="photo">
+							<img src="images/user2.jpg">
+							<p>Caption Here</p>
+						</div>
+						<div class="photo">
+							<img src="images/user3.jpg">
+							<p>Caption Here</p>
+						</div>
+						<div class="photo">
+							<img src="images/wedontwant_4x.png">
 							<p>Caption Here</p>
 						</div>
 						<div class="photo">
@@ -85,19 +98,7 @@
 							<p>Caption Here</p>
 						</div>
 						<div class="photo">
-							<img src="images/12.jpg">
-							<p>Caption Here</p>
-						</div>
-						<div class="photo">
 							<img src="images/13.jpg">
-							<p>Caption Here</p>
-						</div>
-						<div class="photo">
-							<img src="images/14.jpg">
-							<p>Caption Here</p>
-						</div>
-						<div class="photo">
-							<img src="images/15.jpg">
 							<p>Caption Here</p>
 						</div>
 					</div>
@@ -109,15 +110,20 @@
 			<div class="rec">
 				<div class="head">
 					<p>Recommended Places</p>
-					<a href="#">see all</a>
+					<a href="recommended.html" style="color: #8AB6FF;">see all</a>
 				</div>
-				<div class="button">
-					<button><p>Egypt</p></button>
-					<button><p>Paris</p></button>
-					<button><p>England</p></button>
+				<div class="recommended">
+					<a href="#">Cairo</a>
+					<a href="#">Paris</a>
+					<a href="#">London</a>
+					<a href="#">New Yourk</a>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/front.js"></script>
 </body>
 </html>

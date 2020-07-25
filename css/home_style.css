@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
 body{
 	margin:0;
 	padding: 0;
@@ -36,9 +35,6 @@ body{
 	height: 100%;
 	transition: .3s;
 }
-.login:hover .cover{
-	background: rgba(27,20,100,.3);
-}
 .login .name{
     padding: 0 50px;
     position: absolute;
@@ -54,38 +50,37 @@ body{
 	display: block;
 	font-size: 36px;
 }
-
-.button{
-	padding:0;
+.buttons{
+	padding: 10px;
+	margin-top: 7px;
 }
-.button button{
-	margin: 15px 5px;
-	text-align: left;
-	font-size: 16px;
-	float: left;
-	border:none;
-
-	outline: none;
-	padding: 0px 5px;
-	border-radius: 2px;
-
-	background: #FF0080;
-}
-.button button p{
-	display: inline-block;
-	padding: 0px 5px;
+.buttons .b1 {
+	background-color: #ff0080;
+	border-color: #ff0080;
+	width: 80px;
+	transition: ease-in-out 0.5s;
 	color: #fff;
-
-	font-family: 'MuseoModerno', cursive;
-}
-.button button:hover{
+	
+	margin-right: 10px;
+  }
+  .b1:hover {
+	background-color: white;
+	border-color: white;
+	color: #ff0080;
+  }
+  .b2 {
+	width: 80px;
+	transition: ease-in-out 0.5s;
+	border-color: #fff;
 	color: #fff;
-	background: #333333;
-	transition: .4s;
-}
-.button button:hover > p{
-	display: inline-block;
-}
+	
+  }
+  .b2:hover {
+	background-color: white;
+	border-color: #fff;
+	color: #ff0080;
+  }
+
 #page{
 	width: calc(50% - 50px);
 	padding: 25px;
@@ -269,4 +264,17 @@ ul li{
 .rec .button button:hover p {
 	color: #FF0080;
 
+}
+.recommended a{
+	background-color: #fff;
+	box-shadow: 0px 1px 3px  #8ebfe7;
+	color: #8ebfe7;
+	padding: 7px;
+	border-radius: 10px;
+	margin-right: 5px;
+	transition: 0.4s ease;
+
+}
+.recommended a:hover{
+	color: #000;
 }
