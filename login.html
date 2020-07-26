@@ -20,7 +20,7 @@
                 <h2 class="text-center login-text">Get Ready For Your<br> LifeTime Journey</h2>
                 <!-- start input  -->
                 <div class="inpts">
-                    <form>
+                    <form action="/index.html">
                         <div class="con2">
                             <input type="email" name="email" placeholder="Eamil" class="form-control input2"
                                 required="required">
@@ -34,7 +34,7 @@
                         </div>
                         <div class="option">
                             <div class="buttons">
-                                <input type="submit" value="Login" class="btn btn-default b1">
+                                <input type="submit" value="Login" class="btn btn-default b1" id="login-btn">
                                 <a href="/signup.html" value="Register"
                                     class="btn btn-outline-secondary b2">Register</a>
                             </div>
@@ -69,6 +69,12 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/front.js"></script>
     <script src="js/bootstrap.js"></script>
+
+    <script>
+        $('login-btn').on('click', function () {
+            window.location.replace('/index.html');
+        });
+    </script>
     <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- end scripts -->
 </body>
