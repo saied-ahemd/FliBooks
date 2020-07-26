@@ -59,23 +59,9 @@
             </div>
             <div class="col-md-6" style="margin:auto;">
                 <div class="img-container">
-                    <img src="images/6.png" alt="add">
+                    <img src="images/6.png" alt="add" id="image1">
                 </div>
-                <div class="more-images">
-                    <div class="margin">.</div>
-                    <div class="small-img-container">
-                        <img src="images/6.png" alt="add" id="image1">
-                    </div>
-                    <div class="small-img-container">
-                        <img src="images/6.png" alt="add" id="image2">
-                    </div>
-                    <div class="small-img-container">
-                        <img src="images/6.png" alt="add" id="image3">
-                    </div>
-                    <div class="small-img-container">
-                        <img src="images/6.png" alt="add" id="image4">
-                    </div>
-                </div>
+
 
             </div>
 
@@ -95,8 +81,14 @@
 
     <script>
         var images = 0;
-        $(".small-img-container").on('click', function () {
+        var files = ['Discover Greece.jfif', 'Hallstatt, Austria — Madeline Lu.jfif', 'Japan Travel Tips Expert Advice for an Amazing Trip.png', 'Mt Fuji Japan cherry blossom picture.jfif', 'Remembrance.jfif', 'Autumn in Japan - Travel and Photography Tips for Kyoto + Tokyo.jfif']
+        $(".img-container").on('click', function () {
             $("#image").click();
+        });
+        $("#image").on('change', function () {
+            var filePath = $(this).val();
+            $('#image1').attr("src", "images/" + files[images % files.length]);
+            images++;
         });
     </script>
 
